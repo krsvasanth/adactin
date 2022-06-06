@@ -1,0 +1,927 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-03T16:44:16.748Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8640330500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "TC01_Validation of Addactin Web Application with invalid Credentials",
+        "description": "",
+        "id": "adactin-web-application-validation;tc01-validation-of-addactin-web-application-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 319006100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters invalid username and password",
+            "match": {
+              "location": "StepDefinition.user_enters_invalid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 552699900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55511800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User verify Error message is Displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Error_message_is_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-03T16:44:26.339Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4792485700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "TC02_Validation of Addactin Web Application",
+        "description": "",
+        "id": "adactin-web-application-validation;tc02-validation-of-addactin-web-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 153488600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters valid \"krsvasanth\" and \"Hai@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"krsvasanth\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hai@123456\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1287053400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15331900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verify Search Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Search_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 342943700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Selects valid \"Sydney\",\"Hotel Creek\" and \"Deluxe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinition.user_Selects_valid(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1367910500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks search button",
+            "match": {
+              "location": "StepDefinition.user_clicks_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15660600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User verify Select Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Select_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1271297400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks radio button and clicks continue button",
+            "match": {
+              "location": "StepDefinition.user_clicks_radio_button_and_clicks_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12062000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User verify Book a Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Book_a_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 281958900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters valid \"Vasantha\",\"Kumar\" and \"Maraimalainagar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vasantha\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Maraimalainagar\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 513281700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters valid \"4523675689674325\",\"VISA\",\"March\",\"2022\" and \"564\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4523675689674325\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"March\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"564\"",
+                  "offset": 63
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60679400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "USer clicks Book now button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Book_now_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-03T16:44:36.458Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5845361700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "TC02_Validation of Addactin Web Application",
+        "description": "",
+        "id": "adactin-web-application-validation;tc02-validation-of-addactin-web-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 183657600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters valid \"krsvasanth\" and \"Hai@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"krsvasanth\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hai@123456\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1165058900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14695700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verify Search Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Search_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 319875500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Selects valid \"Sydney\",\"Hotel Sunshine\" and \"Deluxe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefinition.user_Selects_valid(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 762635200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks search button",
+            "match": {
+              "location": "StepDefinition.user_clicks_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9998000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User verify Select Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Select_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 903303400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks radio button and clicks continue button",
+            "match": {
+              "location": "StepDefinition.user_clicks_radio_button_and_clicks_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11688500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User verify Book a Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Book_a_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 409861000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters valid \"Vasantha\",\"Kumar\" and \"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vasantha\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 730654600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters valid \"4523632684574374\",\"VISA\",\"February\",\"2022\" and \"786\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4523632684574374\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"February\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"786\"",
+                  "offset": 66
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91433300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "USer clicks Book now button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Book_now_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-03T16:44:46.911Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4927293400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "TC02_Validation of Addactin Web Application",
+        "description": "",
+        "id": "adactin-web-application-validation;tc02-validation-of-addactin-web-application;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 164093100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters valid \"krsvasanth\" and \"Hai@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"krsvasanth\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hai@123456\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1046617800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13514900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verify Search Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Search_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 318100400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Selects valid \"Sydney\",\"Hotel Hervey\" and \"Deluxe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinition.user_Selects_valid(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1337254700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks search button",
+            "match": {
+              "location": "StepDefinition.user_clicks_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13502800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User verify Select Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Select_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 931245200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks radio button and clicks continue button",
+            "match": {
+              "location": "StepDefinition.user_clicks_radio_button_and_clicks_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6086300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User verify Book a Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Book_a_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 286264400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters valid \"Vasantha\",\"Kumar\" and \"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vasantha\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 590490600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters valid \"4523632684574374\",\"American Express\",\"May\",\"2022\" and \"897\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4523632684574374\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"897\"",
+                  "offset": 73
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98817500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "USer clicks Book now button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Book_now_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-03T16:44:56.649Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4835174700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "TC02_Validation of Addactin Web Application",
+        "description": "",
+        "id": "adactin-web-application-validation;tc02-validation-of-addactin-web-application;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 273788800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters valid \"krsvasanth\" and \"Hai@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"krsvasanth\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hai@123456\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2443760800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8731800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verify Search Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Search_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 290920500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Selects valid \"Sydney\",\"Hotel Cornice\" and \"Deluxe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Cornice\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.user_Selects_valid(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 835492500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks search button",
+            "match": {
+              "location": "StepDefinition.user_clicks_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14992100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User verify Select Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Select_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1064598300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks radio button and clicks continue button",
+            "match": {
+              "location": "StepDefinition.user_clicks_radio_button_and_clicks_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9656300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User verify Book a Hotel page is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_Book_a_Hotel_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 440940400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters valid \"Vasantha\",\"Kumar\" and \"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vasantha\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 649971700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters valid \"4523632684574374\",\"Master Card\",\"June\",\"2022\" and \"964\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4523632684574374\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"June\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"964\"",
+                  "offset": 69
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75004700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "USer clicks Book now button",
+            "match": {
+              "location": "StepDefinition.user_clicks_Book_now_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Adactin Web Application Validation",
+    "description": "  Backround:\n    Given User Launch Adactin Web Application\n    Then User verify Adactin Login Page is Displayed",
+    "id": "adactin-web-application-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Feature.feature",
+    "tags": []
+  }
+]
